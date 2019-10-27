@@ -67,77 +67,33 @@
     <Compile Include="Assets\EnemyBehaviorScript.cs" />
     <Compile Include="Assets\IntroTextScript.cs" />
     <Compile Include="Assets\PlayerBehaviorScript.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtBillboard.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtCamera.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtCameraLook.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtCameraMove.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtCameraState.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtEditor.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingCamera.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingLight.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingLod.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingObject.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingOrbit.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingOrbitVisual.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingOrigin.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingPoint.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingRoot.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingScaler.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSpawner.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSpawnerOrbit.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSpawnerRing.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSpawnerSphere.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSpeedometer.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingSwitcher.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingTarget.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingWarp.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingWarpButton.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingWarpPin.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtFloatingWarpSmoothstep.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtHelper.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtHelper_Editor.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtInputManager.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtLength.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtLinkedBehaviour.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtPoolClass.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtPoolComponent.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtPoolObject.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtPosition.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtProceduralSpin.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtSeed.cs" />
-    <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtSpawnList.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
-    <Compile Include="Assets\StarfieldMaterials\Scripts\Move.cs" />
-    <None Include="Assets\Space Graphics Toolkit\Basic Pack\Shaders\SGT Depth.shader" />
-    <None Include="Assets\Space Graphics Toolkit\Basic Pack\Shaders\SGT Additive.shader" />
-    <None Include="Assets\Space Graphics Toolkit\Basic Pack\Fonts\OFL.txt" />
-    <None Include="Assets\StarfieldMaterials\README\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/3D Space Dogfight/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/eskar/OneDrive/Desktop/Orcajam 2019/Dogfight/3D Space Dogfight/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
