@@ -43,7 +43,7 @@ public class EnemySpawnerScript : MonoBehaviour
         currEnemy = Instantiate(enemyPrefab);
         currEnemy.transform.position = player.transform.position;
         currEnemy.transform.rotation = player.transform.rotation;
-        currEnemy.transform.Translate(new Vector3(0, -25, -5));
+        currEnemy.transform.Translate(new Vector3(0, -25, -5) * (5 + enemiesKilled) / 4);
         currEnemy.GetComponent<EnemyBehaviorScript>().canvas = canvas;
         currEnemy.GetComponent<EnemyBehaviorScript>().spawner = gameObject;
         currEnemy.GetComponent<EnemyBehaviorScript>().health = nextEnemyHealth;

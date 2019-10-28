@@ -66,6 +66,7 @@
     <Compile Include="Assets\BulletScript.cs" />
     <Compile Include="Assets\ControlTextScript.cs" />
     <Compile Include="Assets\DeadEnemyScript.cs" />
+    <Compile Include="Assets\EnemiesKilledTextScript.cs" />
     <Compile Include="Assets\EnemyBehaviorScript.cs" />
     <Compile Include="Assets\EnemySpawnerScript.cs" />
     <Compile Include="Assets\HitExplosionScript.cs" />

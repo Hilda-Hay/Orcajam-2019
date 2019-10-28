@@ -922,6 +922,7 @@ GameObject:
   - component: {fileID: 1789926450}
   - component: {fileID: 1789926452}
   - component: {fileID: 1789926451}
+  - component: {fileID: 1789926453}
   m_Layer: 5
   m_Name: EnemiesKilledText
   m_TagString: Untagged
@@ -945,7 +946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -332, y: 160}
+  m_AnchoredPosition: {x: -360, y: 180}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789926451
@@ -988,6 +989,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789926449}
   m_CullTransparentMesh: 0
+--- !u!114 &1789926453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789926449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b788f2186cd414ebd81ec52d4958b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067826527
 GameObject:
   m_ObjectHideFlags: 0
