@@ -44,6 +44,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 0}
   canvas: {fileID: 0}
+  spawner: {fileID: 0}
   deathText: {fileID: 787954605039867949, guid: 483eed83c89a2a1439e88699fce5a700,
     type: 3}
   hitExplosionPrefab: {fileID: 100016, guid: e5e72c487c3d9574195db877dff604fb, type: 3}
@@ -60,7 +61,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b10dbf1081a91c54d948bfca5f9038ce,
         type: 3}
       propertyPath: m_Name
-      value: enemyship
+      value: enemyship Variant
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b10dbf1081a91c54d948bfca5f9038ce,
         type: 3}

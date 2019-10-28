@@ -67,6 +67,7 @@
     <Compile Include="Assets\ControlTextScript.cs" />
     <Compile Include="Assets\DeadEnemyScript.cs" />
     <Compile Include="Assets\EnemyBehaviorScript.cs" />
+    <Compile Include="Assets\EnemySpawnerScript.cs" />
     <Compile Include="Assets\HitExplosionScript.cs" />
     <Compile Include="Assets\IntroTextScript.cs" />
     <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Scripts\HUDFPS.cs" />

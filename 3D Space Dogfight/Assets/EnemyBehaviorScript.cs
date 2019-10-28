@@ -6,11 +6,13 @@ public class EnemyBehaviorScript : MonoBehaviour
 {
     public GameObject bullet;
     public GameObject canvas;
+    public GameObject spawner;
     public GameObject deathText;
     public GameObject hitExplosionPrefab;
     public GameObject deathExplosionPrefab;
 
     GameObject currentExplosion;
+    
 
     float behaviorUpdateTimer;
     float explosionTimer;
@@ -137,6 +139,7 @@ public class EnemyBehaviorScript : MonoBehaviour
             deathExplosion.GetComponent<Rigidbody>().velocity = -transform.up * speed;
 
             Debug.Log("Enemy destroyed!");
+            spawner.GetComponent<EnemySpawnerScript>().enemyKilled();
             Destroy(gameObject);
         }
     }
