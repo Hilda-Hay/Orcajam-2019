@@ -5,30 +5,51 @@ using UnityEngine;
 public class EnemyBehaviorScript : MonoBehaviour
 {
     public GameObject bullet;
+    public GameObject canvas;
+    public GameObject deathText;
+    public GameObject hitExplosionPrefab;
+    public GameObject deathExplosionPrefab;
+
+    GameObject currentExplosion;
 
     float behaviorUpdateTimer;
+    float explosionTimer;
 
     int horizAxis = 0;
     int vertAxis = 0;
 
-    public int health = 5;
+    public int health;
+
+    float speed;
+
+    Rigidbody RB;
 
     // Start is called before the first frame update
     void Start()
     {
         behaviorUpdateTimer = 0;
+
+        speed = 10;
+
+        RB = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0, -10 * Time.deltaTime, 0);
+        transform.Translate(0, -1 * speed * Time.deltaTime, 0);
 
         behaviorUpdateTimer -= Time.deltaTime;
         if (behaviorUpdateTimer < 0)
         {
             decideBehavior();
             behaviorUpdateTimer = 1;
+        }
+
+        explosionTimer -= Time.deltaTime;
+        if (explosionTimer < 0f && !(currentExplosion is null))
+        {
+            currentExplosion.GetComponent<ParticleSystem>().Stop();
         }
 
         handleInput();
@@ -99,8 +120,22 @@ public class EnemyBehaviorScript : MonoBehaviour
     {
         Debug.Log("Hit!");
         health -= 1;
+        if(!(currentExplosion is null))
+        {
+            currentExplosion.GetComponent<ParticleSystem>().Stop();
+        }
+        currentExplosion = Instantiate(hitExplosionPrefab, transform);
+        explosionTimer = 3f;
         if (health <= 0)
         {
+            GameObject msg = Instantiate(deathText);
+            msg.transform.parent = canvas.transform;
+
+            GameObject deathExplosion = Instantiate(deathExplosionPrefab);
+            // deathExplosion.transform.localScale *= 4;
+            deathExplosion.transform.position = transform.position;
+            deathExplosion.GetComponent<Rigidbody>().velocity = -transform.up * speed;
+
             Debug.Log("Enemy destroyed!");
             Destroy(gameObject);
         }
