@@ -50,7 +50,7 @@ MonoBehaviour:
   hitExplosionPrefab: {fileID: 100016, guid: e5e72c487c3d9574195db877dff604fb, type: 3}
   deathExplosionPrefab: {fileID: 1729881054763349648, guid: 1caaa96a44de80047b4bfc7483097ca4,
     type: 3}
-  health: 5
+  health: 3
 --- !u!1001 &91266499217835695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,16 +118,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1504981713932161579, guid: b10dbf1081a91c54d948bfca5f9038ce,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ef26979348d208b46b7b42da9ab0abee, type: 2}
     - target: {fileID: -5716681864270162303, guid: b10dbf1081a91c54d948bfca5f9038ce,
         type: 3}
       propertyPath: m_PlayAutomatically
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: b10dbf1081a91c54d948bfca5f9038ce,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ef26979348d208b46b7b42da9ab0abee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b10dbf1081a91c54d948bfca5f9038ce, type: 3}
 --- !u!1 &8243227186795552678 stripped

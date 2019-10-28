@@ -28,6 +28,22 @@ public class WinTextScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (textChangeTimer < 1f)
+        {
+            text.text = "A new enemy will spawn in 1 second! ";
+        }
+        else if (textChangeTimer < 2f)
+        {
+            text.text = "A new enemy will spawn in 2 seconds!";
+        }
+        else if (textChangeTimer < 3f)
+        {
+            text.text = "A new enemy will spawn in 3 seconds!";
+        }
+        else if (textChangeTimer < 4f)
+        {
+            text.text = "A new enemy will spawn in 4 seconds!";
+        }
         else if(textChangeTimer < 5f)
         {
             text.text = "A new enemy will spawn in 5 seconds!";
